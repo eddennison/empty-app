@@ -1,5 +1,5 @@
 import random
-from time import time
+import time
 from ggame import App
 myapp = App()
 myapp.run()
