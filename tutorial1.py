@@ -1,4 +1,4 @@
-from random import random
+import random
 from time import time
 from ggame import App
 myapp = App()
@@ -34,10 +34,7 @@ count = 0;
 
 while count < 10000:
     polySprite.scale = random.random()
-    if count%2 :
-        polySprite.visible = false
-    else:
-        polySprite.visible = true
+
     time.sleep(1)
     count = count + 1
 
