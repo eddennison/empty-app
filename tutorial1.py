@@ -19,7 +19,7 @@ rrectangle = RectangleAsset(50, 20, thinline, red)
 
 # Now display a rectangle
 Sprite(brectangle,(100,100))
-Sprite(rrectangle,(120,120))
+Sprite(rrectangle,(110,110))
 
 myapp = App()
 myapp.run()
