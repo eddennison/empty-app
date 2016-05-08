@@ -1,4 +1,5 @@
-from random import randomfrom ggame import App
+from random import random
+from ggame import App
 myapp = App()
 myapp.run()
 
