@@ -32,7 +32,7 @@ Sprite(bellipse,(500,250))
 polySprite = Sprite(rpolygon,(0,0))
 count = 0;
 
-while count < 10000:
+while count < 10:
     polySprite.scale = random.random()
 
     time.sleep(1)
