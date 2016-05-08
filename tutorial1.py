@@ -16,10 +16,12 @@ thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
 brectangle = RectangleAsset(50, 20, thinline, blue)
 rrectangle = RectangleAsset(50, 20, thinline, red)
+bellipse = EllipseAsset(1000,500,thinline, blue)
 
 # Now display a rectangle
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
+Sprite(bellipse,(1000,500))
 
 myapp = App()
 myapp.run()
