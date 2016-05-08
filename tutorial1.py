@@ -19,7 +19,7 @@ brectangle = RectangleAsset(50, 20, thinline, blue)
 rrectangle = RectangleAsset(50, 20, thinline, red)
 bellipse = EllipseAsset(500,250,thinline, blue)
 rpolygon = PolygonAsset([(50,0),(950,0),(1000,50),(1000,450),
-       (950,500),(50,500),(0,450),(0,50),(50,0)],thinline, red)
+       (950,500),(50,500),(0,450),(0,50),(50,0)],thinline, redtransparent)
 
 
 
