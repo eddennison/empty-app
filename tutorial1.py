@@ -25,8 +25,8 @@ rpolygon = PolygonAsset([(50,0),(950,0),(1000,50),(1000,450),
 # Now display a rectangle
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
-Sprite(bellipse,(0,0))
-Sprite(rpolygon,(-250,-125))
+Sprite(bellipse,(500,250))
+Sprite(rpolygon,(0,0))
 
 myapp = App()
 myapp.run()
