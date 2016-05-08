@@ -21,7 +21,7 @@ bellipse = EllipseAsset(500,250,thinline, blue)
 # Now display a rectangle
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
-Sprite(bellipse,(1000,500))
+Sprite(bellipse,(500,250))
 
 myapp = App()
 myapp.run()
