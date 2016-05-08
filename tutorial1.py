@@ -1,4 +1,5 @@
 from random import random
+from time import time
 from ggame import App
 myapp = App()
 myapp.run()
@@ -33,6 +34,7 @@ count = 0;
 
 while count < 10000:
     polySprite.scale = random.random()
+    time.sleep(1)
     count = count + 1
 
 myapp = App()
