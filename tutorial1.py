@@ -27,7 +27,8 @@ rpolygon = PolygonAsset([(50,0),(950,0),(1000,50),(1000,450),
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
 Sprite(bellipse,(500,250))
-Sprite(rpolygon,(0,0))
+polySprite = Sprite(rpolygon,(0,0))
+polySprite.scale = 0.5
 
 myapp = App()
 myapp.run()
