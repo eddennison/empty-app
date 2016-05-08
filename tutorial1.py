@@ -26,13 +26,13 @@ rpolygon = PolygonAsset((0,250),
                         (1000,450),
                         (950,50),
                         (50,500),
-                        (0,250),red)
+                        (0,250),thinline, red)
 
 
 # Now display a rectangle
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
-Sprite(bellipse)
+Sprite(bellipse,(0,0))
 Sprite(rpolygon(500,250))
 
 myapp = App()
