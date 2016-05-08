@@ -17,7 +17,16 @@ thinline = LineStyle(1, black)
 brectangle = RectangleAsset(50, 20, thinline, blue)
 rrectangle = RectangleAsset(50, 20, thinline, red)
 bellipse = EllipseAsset(500,250,thinline, blue)
-rpolygon = PolygonAsset((0,250),(0,50),(50,0),(950,0),(1000,50),(1000,250),(1000,450),(950,50)(50,500),(0,250),yellow)
+rpolygon = PolygonAsset((0,250),
+                        (0,50),
+                        (50,0),
+                        (950,0),
+                        (1000,50),
+                        (1000,250),
+                        (1000,450),
+                        (950,50),
+                        (50,500),
+                        (0,250),yellow)
 
 
 # Now display a rectangle
