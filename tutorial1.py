@@ -17,24 +17,23 @@ thinline = LineStyle(1, black)
 brectangle = RectangleAsset(50, 20, thinline, blue)
 rrectangle = RectangleAsset(50, 20, thinline, red)
 bellipse = EllipseAsset(500,250,thinline, blue)
-rpolygon = PolygonAsset([(0,0),
-                        (10,0),
-                        (10,10),
-                        (0,10),
+rpolygon = PolygonAsset((0,250),
+                        (0,50),
+                        (50,0),
+                        (950,0),
                         (1000,50),
                         (1000,250),
                         (1000,450),
                         (950,50),
                         (50,500),
-                        (0,0)],thinline, red)
+                        (0,250),red)
 
 
 # Now display a rectangle
-Sprite(rpolygon, (500,250))
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
-Sprite(bellipse,(500,250))
-
+Sprite(bellipse)
+Sprite(rpolygon(500,250))
 
 myapp = App()
 myapp.run()
