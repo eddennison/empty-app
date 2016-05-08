@@ -33,7 +33,7 @@ rpolygon = PolygonAsset([(0,250),
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
 Sprite(bellipse,(500,250))
-Sprite(rpolygon(500,250))
+Sprite(rpolygon, (500,250))
 
 myapp = App()
 myapp.run()
