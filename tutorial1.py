@@ -1,4 +1,4 @@
-from ggame import App
+from random import randomfrom ggame import App
 myapp = App()
 myapp.run()
 
@@ -28,7 +28,11 @@ Sprite(brectangle,(100,100))
 Sprite(rrectangle,(110,110))
 Sprite(bellipse,(500,250))
 polySprite = Sprite(rpolygon,(0,0))
-polySprite.scale = 0.5
+count = 0;
+
+while (count < 10000)
+    polySprite.scale = random.random()
+    count = count + 1
 
 myapp = App()
 myapp.run()
